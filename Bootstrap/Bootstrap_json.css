@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+     /* All Css About plugins */
+
+
+
+/* 45th Bootstrap Tooltips Plugin */
+
+
+/* .container{
+    border: 5px solid Red;
+} */  
+
+/* 46th Bootstrap popover plugin */
+
+/* Ther is no Css For popover 46th  */
+
+
+/* 47th Bootstrap Alert classes & Plugin */
+
+/* #test{
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+
+/* 48th Bootstrap Model plugin */
+
+/* Ther is no Css For Modal 48th  */
+
+/* 49th Collapse & Accordion Plugin */
+
+/* .accordion-item .accordion-button.collapsed{
+    background: rgb(236, 190, 190);
+}
+.accordion-item .accordion-button {
+    background: rgb(188, 231, 188);
+} */
+
+/* 50th Bootstrap Tab pluugin */
+
+/* Ther is no Css For Modal 48th  */
+
+/* 51th Bootstrap Carousel plugin */
+
+/* .carousel-inner h3,p{
+    background: #fff;
+    color: #000;
+    font-weight: Bold;
+} */
+
+/* 52th Bootstrap Toast plugin */
+
+/* body{
+    background: #ccc;
+}
+
+.mytoast{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+} */
+
+/* 53th Bootstrap Scrollspy Plugin */
+
+
+/* .custom_scroll{
+    position: relative;
+    height: 200px;
+    margin-top: 0.5rem;
+    overflow: auto;
+}
+
+.vertical_scroll{
+    position: absolute;
+    height: 400px;
+    overflow: auto;
+}
+
+#home,
+#features,
+#pricing,
+#contact{
+    min-height: 550px;
+}
+
+.list_crollspy{
+    position: absolute;
+    height: 300px;
+    overflow: auto;
+}
+
+#custum .navbar-light .navbar-nav .nav-link.active,
+#custum .navbar-light .navbar-nav .show>.nav-link{
+    background: rgb(13, 10, 209);
+    color: #fff;
+} */
+
+
+

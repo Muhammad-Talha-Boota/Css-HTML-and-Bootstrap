@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Json</title>
+
+    <!-- Link for Font Awasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- link for css And bootstrap file -->
+
+    <!-- <link rel="stylesheet" href="Css/bootstrap.css"> -->
+    <link rel="stylesheet" href="Bootstrap_json.css">
+
+     <!-- css link -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+
+
+    <!-- Links For 45th Methods & Events , popover 46th tutorial -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script> -->
+
+    <!-- Links For Alerts 47th tutorial -->
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>  -->
+
+    <!-- Links For Model 48th tutorial , for collapus 49th tutorial , for Nav 50th tuotorial ,for carousel 51th tuotorial , for Toast 52th tuotorial-->
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script> -->
+
+   
+
+    <!-- js link for 53th Scrollspy Tuotorial -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script> -->
+
+
+    <!-- start Script of All plegin -->
+
+
+    <!-- Script Code For 45th Methods & Events-->
+
+    <!-- <script>
+        $(function () {
+            $('[ data-toggle="tooltip"]').tooltip({
+                html: true,
+                Animation: false,
+                delay: { "show": 200, "hide": 100, },
+                placement: "bottom",
+                title: "<img src='Images/smil.png' > <h1>About <br> Us </h1>",
+                trigger : "hover",
+                offset : 30,
+            });
+
+            $("#show").click(function(){
+                $("#example").tooltip('show');
+            });
+            $("#hide").click(function(){
+                $("#example").tooltip('hide');
+            });
+            $("#both").click(function(){
+                $("#example").tooltip('toggle');
+            });
+            $("#dispose").click(function(){
+                $("#example").tooltip('dispose');
+            });
+            $("#enable").click(function(){
+                $("#example").tooltip('enable');
+            });
+            $("#disable").click(function(){
+                $("#example").tooltip('disable');
+            });
+            $("#toggelEnable").click(function(){
+                $("#example").tooltip('toggleEnabled');
+            });
+            $("#example").on('show.bs.tooltip',function(){
+                alert("You want to show the title. Then Press Ok...!");
+            });
+            $("#example").on('shown.bs.tooltip',function(){
+                alert("shown");
+            });
+            $("#example").on('hide.bs.tooltip',function(){
+                alert("hide");
+            });
+            $("#example").on('hidden.bs.tooltip',function(){
+                alert("hidden");
+            });
+            $("#example").on('inserted.bs.tooltip',function(){
+                alert("Inserted");
+            });
+        });
+    </script> -->
+
+    <!-- Script for 46th popover plugin -->
+
+    <!-- <script>
+        $(function () {
+            $('[data-toggle="popover" ]').popover();
+        });
+
+
+    </script>
+    <script>
+        $(function () {
+            $('#test').popover({
+                html: true,
+                placement: 'left',
+                title: 'Quadacts',
+                content: 'They may go <h3> home </h3> when <br> the work is done for the day of duty.',
+                delay: { "show": 100, "hide": 500 },
+                trigger: 'hover',
+                offset: 30,
+            });
+
+            $('#show').click(function () {
+                $('#test').popover('show')
+            });
+
+            $('#hide').click(function () {
+                $('#test').popover('hide')
+            });
+
+            $('#both').click(function () {
+                $('#test').popover('toggle')
+            });
+
+            $('#disp').click(function () {
+                $('#test').popover('dispose')
+            });
+
+            $('#enb').click(function () {
+                $('#test').popover('Enable')
+            });
+
+            $('#dienb').click(function () {
+                $('#test').popover('disable')
+            });
+
+            $('#togenb').click(function () {
+                $('#test').popover('toggleEnabled')
+            });
+
+            $('#test').on("show.bs.popover", function () {
+                alert("You want to open the popover.");
+            });
+
+            $('#test').on("inserted.bs.popover", function () {
+                alert("Wait Please Popover open When you Click On Ok....!");
+            });
+
+            $('#test').on("shown.bs.popover", function () {
+                alert("Popover shown Successfully..!");
+            });
+
+            $('#test').on("hide.bs.popover", function () {
+                alert("You want the Hide the popover..!");
+            });
+
+            $('#test').on("hidden.bs.popover", function () {
+                alert("Popover Hidden Successfully..!");
+            });
+
+        });
+    </script> -->
+
+    <!-- Script for 47th Alert Classes & plugin -->
+
+    <!-- <script>
+        $(function () { 
+          $("#closebtn").click(function(){
+              $("#red").alert('close');
+          });
+
+          $("#red").on("close.bs.alert",function(){
+              alert("You want to close the alert. Then Press the ok...!");
+          });
+
+          $("#red").on("closed.bs.alert",function(){
+              alert("Alert Close Successfully...!");
+          });
+
+        });
+    </script> -->
+
+    <!-- Script for 48th Bootstrap Model plugin  -->
+
+    <!-- <script>
+        $(function () {
+            $('#exampleModalToggle').modal({
+                backdrop: 'static',
+                keyboard: true,
+            });
+
+            $('#showbtn').click(function () {
+                $('#exampleModalToggle').modal('show');
+            });
+
+            $('#closeModal').click(function () {
+                $('#exampleModalToggle').modal('hide');
+            });
+
+            $('#myModal').on('show.bs.modal', function () {
+                alert('shown');
+            });
+
+            $('#myModal').on('shown.bs.modal', function () {
+                alert('show');
+            });
+
+            $('#myModal').on('hide.bs.modal', function () {
+                alert('hide');
+            });
+
+        });
+    </script> -->
+
+    <!-- Script for 49th Bootstrap Collapus plugin  -->
+
+    <!-- <script>
+        $(function() {
+            $('#show').click(function(){
+                $('#first').collapse('show');
+            })
+
+            $('#hide').click(function(){
+                $('#first').collapse('hide');
+            })
+
+            $('#toggle').click(function(){
+                $('#first').collapse('toggle');
+            })
+
+            $('#first').on('show.bs.collapse',function(){
+                alert("Show");
+            })
+
+            $('#first').on('shown.bs.collapse',function(){
+                alert("Shown");
+            })
+
+            $('#first').on('hide.bs.collapse',function(){
+                alert("Hide");
+            })
+
+            $('#first').on('hidden.bs.collapse',function(){
+                alert("hidden");
+            })
+        })
+    </script> -->
+
+    <!-- Script for 50th Bootstrap Nav plugin  -->
+
+    <!-- <Script>
+        $(function () {
+            $('#mytab a').on('click', function (e) {
+                e.preventDefault();
+                $(this).tab('show');
+            })
+
+            $('#mytab a').on('show.bs.tab',function(e){
+               console.log(e.target);
+               console.log(e.relatedTarget);
+                alert('You Successfully Open this tab,,,,....');
+            })
+
+            $('#mytab a').on('hide.bs.tab',function(e){
+                alert('You want to Close this Tab and Open Other tab..... Then Press OK.......!');
+            })
+
+            $('#pillstab a').on('click',function(e){
+                console.log(e.target);
+                console.log(e.relatedTarget);
+            })
+        })
+    </Script> -->
+
+    <!-- Script for 51th Bootstrap Carousole plugin -->
+
+    <!-- <script>
+        $(function(){
+            $('#mycarousel').carousel({
+                interval: 3000,
+                wrap: true,
+                pause: false,
+            })
+
+            $('#prevbtn').click(function(){
+                $('#mycarousel').carousel('prev');
+            })
+
+            $('#nextbtn').click(function(){
+                $('#mycarousel').carousel('next');
+            })
+
+            $('#pausebtn').click(function(){
+                $('#mycarousel').carousel('pause');
+            })
+
+            $('#syclebtn').click(function(){
+                $('#mycarousel').carousel('cycle');
+            })
+
+            $('#fbtn').click(function(){
+                $('#mycarousel').carousel(0);
+            })
+
+            $('#sbtn').click(function(){
+                $('#mycarousel').carousel(1);
+            })
+
+            $('#tbtn').click(function(){
+                $('#mycarousel').carousel(2);
+            })
+
+            $('#mycarousel').on('slide.bs.carousel',function(){
+                alert('You want to go on Next Slide');
+            })
+
+            $('#mycarousel').on('slid.bs.carousel',function(){
+                alert('Finally you are on Next Slide');
+            })
+        })
+    </script> -->
+
+    <!-- Script fir 52th Bootstrap Toast plugin -->
+
+    <!-- <script>
+        $(function () {
+            $("#mytoast").toast({
+                delay: 2000,
+                animation: true,
+                autohide: true,
+            });
+
+            $('#mytoast').on('show.bs.toast', function () {
+                alert('You want to open Toast');
+            });
+
+            $('#mytoast').on('shown.bs.toast', function () {
+                alert('Your Toast Open');
+            });
+
+            $('#mytoast').on('hide.bs.toast', function () {
+                alert('You want to Hide Toast');
+            });
+
+            $('#mytoast').on('hidden.bs.toast', function () {
+                alert('Your Toast Hidden')
+            });
+
+            $('#show').click(function () {
+                $("#mytoast").toast('show');
+            });
+
+            $('#hide').click(function () {
+                $('#mytoast').toast('hide');
+            });
+
+        });
+
+    </script> -->
+
+    <!-- script for 53th Bootstrap Scrollspy Plugin -->
+
+    <script>
+
+    </script>
+
+
+
+    <!-- End Script of All plegin -->
+</head>
+ 
+<!-- This body start for 53th scrollspy tuotorial -->
+
+<!-- <body data-bs-spy="scroll" data-bs-offset="56" data-bs-target="#navbar-example"> -->
+
+<body>
+
+    <!-- Start Html of All Plugins -->
+
+
+
+
+    <!-- 45th Bootstrap Tooltips Plugin  -->
+
+    <!-- <div class="container mb-5">
+        <h2 class="text-center py-3">Bootstrap Tooltips Classes</h2>
+        <div class="row py-3 text-center">
+            <div class="col">
+                <button type="button" id="example" class="btn btn-primary p-3 fs-4 me-4" data-html="true"  title="<img src='Images/smil.png' > <h1>About <br> Us </h1>"  data-toggle="tooltip">
+                    Quadacts
+                </button>
+                <button type="button" id="show" class="btn btn-info mx-2 fw-bold">
+                    Show
+                </button>
+                <button type="button" id="hide" class="btn btn-success fw-bold">
+                    Hide
+                </button>
+                <button type="submit" id="both" class="ms-2 btn btn-warning fw-bolder">
+                    Show / Hide
+                </button>
+                <button type="submit" id="dispose" class="ms-2 btn btn-danger fw-bolder">
+                    Dispose
+                </button>
+                <button type="submit" id="enable" class="ms-2 btn btn-secondary fw-bolder">
+                    Enable
+                </button>
+                <button type="submit" id="disable" class="ms-2 btn btn-danger fw-bolder">
+                    Disable
+                </button>
+                <button type="submit" id="toggelEnable" class="ms-2 btn btn-dark fw-bolder">
+                    ToggelEnable
+                </button>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- 46th Bootstrap popover plugin -->
+
+    <!-- <div class="container border border-dark  border-4 rounded-3 mt-5">
+        <h2 class="text-center py-3 text-uppercase fw-lighter display-5 text-decoration-underline">Bootstrap <span
+                class="text-danger fw-bold">poper</span> plugin</h2>
+        <div class="row py-5">
+            <div class="col-md-8 mb-4 mx-auto">
+                <button id="test" class="btn btn-warning fw-bold fs-4">Quadacts</button>
+
+                <button id="show" class="btn btn-primary ms-2">Show</button>
+                <button id="hide" class="btn btn-secondary ms-2">Hide</button>
+                <button id="both" class="btn btn-info ms-2 text-white fw-bold">Show / Hide</button>
+                <button id="disp" class="btn btn-danger ms-2 text-white fw-bold">Dispose</button>
+                <button id="enb" class="btn btn-success ms-2 text-white fw-bold">Enable</button>
+                <button id="dienb" class="btn btn-warning ms-2 text-white fw-bold">Disable</button>
+                <button id="togenb" class="btn btn-dark ms-2 text-white fw-bold">ToggleEnabled</button>
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="col-md-4 mb-4 mx-auto">
+                <button id="test" class="btn btn-warning fw-bold fs-4 " data-html="true" data-placement="right"
+                    data-toggle="popover" title="Quadacts"
+                    data-content="They may go <h3> home </h3> when <br> the work is done for Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum dolore tenetur soluta laborum blanditiis minima voluptas cumque nisi quas porro. the day of duty.">Quadacts</button>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- 47th Bootstrap Alert classes & Plugin -->
+
+    <!-- <div class="container">
+        <h2 class="py-3 text-center text-success fw-bold text-uppercase">Bootstrap Alert Classes</h2>
+        <div class="row py-3 justify-content-md-center">
+            <div class="col-md-6">
+
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                    <button type="button" class="btn-close " data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+
+                <div  class="alert alert-success text-center fw-light lead">
+                    Lorem ipsum dolor, sit
+                    <a href="http://example007.local/home" class="alert-link">Home</a>
+                    amet consectetur adipisicing elit.
+                    
+                </div>
+                <div  class="alert alert-warning text-center fw-light lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+                <div id="red" class="alert alert-primary text-center fw-light lead">
+                    <h3 class="alert-heading">Heading Goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nulla similique, autem inventore
+                        beatae in sint dolores maxime harum. Nisi.</p>
+                    <hr>
+                    <p class="bg-danger p-3 rounded bg-opacity-10">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Cum beatae veniam ut cupiditate voluptate nobis ad, sapiente optio dolore repellendus
+                        consequuntur mollitia totam accusamus tenetur iure ipsam doloremque molestias neque?</p>
+                </div>
+                <button id="closebtn" class="btn btn-danger">Close</button>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- 48th Bootstrap Model plugin -->
+
+    <!-- <div class="container">
+        <h2 class="py-3 text-center">Bootstrap Modal</h2>
+        <div class="row py-3 justify-content-center">
+            <div class="col-md-4">
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                    Launch modal demo
+                </button>
+
+                <button id="showbtn" class="btn btn-success px-lg-5">Show</button>
+
+
+                <div class="modal  fade " data-bs-backdrop="static" tabindex="-1" id="myModal" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close fs-6" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="fw-light fs-5 "> <a href="https://www.youtube.com/watch?v=XtJoLMqHidw&t=494s"
+                                        class="fa fa-code me-4">Model</a> Lorem quam suscipit, esse nobis nemo. Ab
+                                    dolorem illo molestias earum, ad nulla omnis ducimus ipsum ullam corporis
+                                    eveniet accusantium tempore assumenda nemo beatae suscipit expedita error porro
+                                    provident quod voluptatibus vero ex. Libero, quasi reprehenderit?</p>
+                                <div class="col ">
+                                    <div class="card bg-success bg-opacity-25">
+                                        <img src="Images/1stlayout/4.jpg" class="card-img-top" alt="Image">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Card tittle</h4>
+                                            <p class="card-text fw-light fs-5">Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit. Sed inventore
+                                                pariatur dolores ut! Porro eos deleniti rerum molestiae animi.
+                                                Nihil!</p>
+                                            <button class="btn btn-primary">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-fluid bg-ligh">
+                                    <div class="row py-3">
+                                        <div class="col-md-6 bg-danger bg-opacity-25">
+                                            <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda
+                                                tempora minus adipisci veniam quod dolorem deserunt labore
+                                                dignissimos necessitatibus neque?</h5>
+                                        </div>
+                                        <div class="col-md-6 bg-warning bg-opacity-25 ">
+                                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim totam
+                                                quibusdam deserunt debitis, mollitia error ad quia molestias nostrum
+                                                magnam.</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row py-3">
+                                        <div class="col-md-3 bg-success bg-opacity-25">
+                                            Col A
+                                        </div>
+                                        <div class="col-md-3 bg-warning bg-opacity-25 ">
+                                            Col B
+                                        </div>
+                                        <div class="col-md-3 bg-info bg-opacity-25">
+                                            Col C
+                                        </div>
+                                        <div class="col-md-3 bg-secondary bg-opacity-25 ">
+                                            Col D
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="modal fade" id="exampleModalToggle" tabindex="-1" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                                <button type="button" class="btn-close" id="closeModal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Show a second modal and hide this one with the button below.
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                                    data-bs-toggle="modal">Open second modal</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Hide this modal and show the first with the button below.
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                                    data-bs-toggle="modal">Back to first</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+    <!-- 49th Collapse & Accordion Plugin -->
+
+    <!-- <div class="container">
+        <h2 class="py-3 text-center">Bootstrap Collapse & Accordion</h2>
+        <div class="row py-3 justify-content-center">
+            <div class="col-md-6">
+                <button class="btn btn-danger mb-2" data-bs-toggle="collapse" data-bs-target="#mycoll,.more">Click
+                    me</button>
+
+                <a href="" class="btn btn-success mb-2" data-bs-toggle="collapse" data-bs-target="#mycoll,.more">Another
+                    Link</a>
+
+
+                <div id="mycoll" class="collapse">
+                    <div class="card card-body bg-danger">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, fugit. Nisi voluptatem
+                        maxime accusamus ut a, quos repellat aliquam eligendi?
+                    </div>
+                </div>
+                <div id="mycoll" class="collapse more">
+                    <div class="card card-body bg-dark text-white">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, fugit. Nisi voluptatem
+                        maxime accusamus ut a, quos repellat aliquam eligendi?
+                    </div>
+                </div>
+                <div id="mycoll" class="collapse more">
+                    <div class="card card-body bg-warning">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, fugit. Nisi voluptatem
+                        maxime accusamus ut a, quos repellat aliquam eligendi?
+                    </div>
+                </div>
+                <div id="" class="collapse more">
+                    <div class="card card-body bg-success">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, fugit. Nisi voluptatem
+                        maxime accusamus ut a, quos repellat aliquam eligendi?
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button id="show" class="btn btn-outline-dark">Show</button>
+        <button id="hide" class="btn btn-outline-dark">Hide</button>
+        <button id="toggle" class="btn btn-outline-dark">Toggle</button>
+
+        <div class="collapse" id="first">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Quadacts</h2>
+                </div>
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quas ipsam nemo. Deleniti earum vel, facilis corporis recusandae culpa, in debitis inventore sint repudiandae impedit similique dolorum quis quaerat vitae!
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div id="myacc" class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-button" type="button" data-bs-target="#myaccone"
+                            data-bs-toggle="collapse">Accordion One</button>
+                        <div id="myaccone" class="collapse accordion-collapse show" data-bs-parent="#myacc">
+                            <div class="accordion-body">
+                                <b>Lorem ipsum dolor sit amet,</b> consectetur adipisicing elit. Asperiores ullam quasi
+                                quaerat sequi nulla <code>temporibus enim eligendi,</code> cupiditate et amet.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#myacctwo">Accordion Two</button>
+                        <div id="myacctwo" class="collapse accordion-collapse " data-bs-parent="#myacc">
+                            <div class="accordion-body">
+                                <b>Lorem ipsum dolor sit amet,</b> consectetur adipisicing elit. Asperiores ullam quasi
+                                quaerat sequi nulla <code>temporibus enim eligendi,</code> cupiditate et amet.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#myaccthree">Accordion Two</button>
+                        <div id="myaccthree" class="collapse accordion-collapse " data-bs-parent="#myacc">
+                            <div class="accordion-body">
+                                <b>Lorem ipsum dolor sit amet,</b> consectetur adipisicing elit. Asperiores ullam quasi
+                                quaerat sequi nulla <code>temporibus enim eligendi,</code> cupiditate et amet.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- 50th Bootstrap Tab pluugin -->
+
+    <!-- <div class="container">
+        <h2 class="text-center py-3">Bootstrap Tabs</h2>
+        <div class="row py-3 justify-content-center">
+            <div class="col-md-6">
+                <ul id="mytab" class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#About" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                </ul>
+
+                <div id="tabcontent" class="tab-content py-3">
+                    <div class="tab-pane fade show active" id="home">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque culpa facilis quidem sapiente
+                        molestiae cumque voluptate eveniet id, inventore magnam amet iure nobis laudantium eius quod
+                        quas mollitia laborum minima?
+                    </div>
+                    <div class="tab-pane fade" id="About">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque culpa facilis quidem sapiente
+                        molestiae cumque voluptate eveniet?
+                    </div>
+                    <div class="tab-pane fade" id="gallery">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque culpa facilis quidem sapiente
+                        molestiae cumque voluptate eveniet id, inventore magnam amet iure nobis?
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-6">
+                <ul id="pillstab" class="nav nav-pills">
+                    <li class="nav-item">
+                        <a href="#home1" class="nav-link active" data-bs-toggle="pill">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#About1" class="nav-link" data-bs-toggle="pill">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery1" class="nav-link" data-bs-toggle="pill">Gallery</a>
+                    </li>
+                </ul>
+
+                <div id="tabcontent" class="tab-content py-3">
+                    <div class="tab-pane fade show active" id="home1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque culpa facilis quidem sapiente
+                        molestiae cumque voluptate eveniet id, inventore magnam amet iure nobis laudantium eius quod
+                        quas mollitia laborum minima?
+                    </div>
+                    <div class="tab-pane fade" id="About1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque culpa facilis quidem sapiente
+                        molestiae cumque voluptate eveniet?
+                    </div>
+                    <div class="tab-pane fade" id="gallery1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque culpa facilis quidem sapiente
+                        molestiae cumque voluptate eveniet id, inventore magnam amet iure nobis?
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2">
+                <ul id="verticaltab" class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a href="#home2" class="nav-link active" data-bs-toggle="pill">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#About2" class="nav-link" data-bs-toggle="pill">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery2" class="nav-link" data-bs-toggle="pill">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-10">
+                <div id="tabcontent" class="tab-content py-3">
+                    <div class="tab-pane fade show active" id="home2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque culpa facilis quidem sapiente
+                        molestiae cumque voluptate eveniet id, inventore magnam amet iure nobis laudantium eius quod
+                        quas mollitia laborum minima? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Blanditiis, itaque! Nostrum unde tenetur autem beatae quos nemo officia dolores provident
+                        voluptate quod totam temporibus atque quas, nesciunt iste officiis hic.
+                    </div>
+                    <div class="tab-pane fade" id="About2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque culpa facilis quidem sapiente
+                        molestiae cumque voluptate eveniet?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quibusdam cupiditate accusantium voluptas tenetur expedita repellendus excepturi alias veniam
+                        eveniet nostrum.
+                    </div>
+                    <div class="tab-pane fade" id="gallery2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque culpa facilis quidem sapiente
+                        molestiae cumque voluptate eveniet id, inventore magnam amet iure nobis?Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Dolor, minus!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- 51th Bootstrap Carousel plugin -->
+
+    <!-- <div class="container">
+        <h2 class="text-center py-3">Bootstrap Carousale Plugin</h2>
+        <div class="row justify-content-center py-3">
+            <div class="col-10">
+                <div id="mycarousel" class="carousel slide carousel-fade pb-3"  data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#mycarousel" data-bs-slide-to="1" class=""></li>
+                        <li data-bs-target="#mycarousel" data-bs-slide-to="2" class=""></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/1stlayout/02.jpg" class="d-block w-100 " alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>First Slide Label</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quos?</p>
+                            </div>
+                           
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/1stlayout/03.jpg" class="d-block w-100" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Second Slide Label</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quos?</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/1stlayout/04.jpg" class="d-block w-100" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Third Slide Label</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quos?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+
+                <button id="prevbtn" class="btn btn-outline-dark me-2">Prev</button>
+                <button id="nextbtn" class="btn btn-outline-success me-2">Next</button>
+                <button id="pausebtn" class="btn btn-outline-danger me-2">Pause</button>
+                <button id="syclebtn" class="btn btn-outline-warning me-5">Cycle</button>
+                <button id="fbtn" class="btn btn-success p-2 ms-5 me-2">1st</button>
+                <button id="sbtn" class="btn btn-success p-2 me-2">2nd</button>
+                <button id="tbtn" class="btn btn-success p-2 me-2">3rd</button>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- 52th Bootstrap Toast plugin -->
+
+    <!-- <div class="container">
+        <h2 class="text-center text-white fs-1 py-3">Bootstrap Toast</h2>
+        <div class="row py-3 justify-content-center">
+            <div class="col-md-4">
+                <button id="show" class="btn btn-success">Show</button>
+                <button id="hide" class="btn btn-danger">Hide</button>
+                <button id="dispose" class="btn btn-warning">Dispose</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="mytoast">
+        <div class="toast show mb-2">
+            <div class="toast-header">
+                <img class="rounded rounded-circle" src="images/1stlayout/02.jpg" width="60px" alt="">
+                <strong class="ms-2 me-auto">Bootstrap Toast</strong>
+                <small class="text-muted">1 Sec Ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Lorem ipsum dolor sit amet.
+            </div>
+        </div>
+
+        <div class="toast show">
+            <div class="toast-header">
+                <img class="rounded rounded-circle" src="images/1stlayout/03.jpg" width="60px" alt="">
+                <strong class="ms-2 me-auto">Quadacts</strong>
+                <small class="text-muted">2 Sec Ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, ipsa.
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="mytoast">
+        <div class="toast-header">
+            <img class="rounded rounded-circle" src="images/1stlayout/03.jpg" width="60px" alt="">
+            <strong class="ms-2 me-auto">Quadacts</strong>
+            <small class="text-muted">2 Sec Ago</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, ipsa.
+        </div>
+    </div> -->
+
+    <!-- 53th Bootstrap Scrollspy Plugin -->
+
+    <!-- <div class="container-fluid" id="custum">
+        <div class="row">
+            <div class="col-sm-12 text-center py-4">
+                <h2 class="text-success display-4">Scroll <code>SPY</code> Classes</h2>
+            </div>
+
+        /////////// Horizontal /////////////
+
+            <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">First</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="custom_scroll" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0"
+                class="scrollspy-example" tabindex="0">
+                <h4 id="scrollspyHeading1">First heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium officiis adipisci ut corporis
+                    totam numquam voluptate Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident
+                    excepturi veritatis minima molestiae velit maxime officiis debitis rerum facilis incidunt hic nemo
+                    alias, sed atque. Ad non quam, voluptate voluptatum quia minima ullam totam reiciendis aliquid
+                    tempora optio nesciunt sapiente repellat asperiores natus quas, necessitatibus a doloremque
+                    architecto eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus eos
+                    vero. At, odio. Impedit consequuntur minima vero beatae dolore mollitia, perspiciatis quaerat quos a
+                    dolorum earum officia tempore aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus deleniti incidunt molestiae quibusdam eveniet recusandae omnis reiciendis magni enim id!
+                    amet doloremque aperiam quae? Autem vel maiores sapiente iusto, doloremque natus unde earum
+                    expedita!</p>
+                <h4 id="scrollspyHeading2">Second heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum totam molestiae libero voluptatum
+                    delectus iusto dolor neque esse ducimus, quis atque autem laborum ullam voluptatem rem quia sequi
+                    voluptates praesentium!</p>
+                <h4 id="scrollspyHeading3">Third heading</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptatibus quas. Repellendus, ullam
+                    deserunt. Consequuntur nam vel doloremque qui provident veniam, porro impedit perferendis optio
+                    modi, assumenda repellendus commodi dolores.</p>
+                <h4 id="scrollspyHeading4">Fourth heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi similique delectus asperiores odit
+                    provident perferendis quaerat? Optio libero enim esse facere, nostrum quod non cumque, tenetur
+                    praesentium veritatis sunt unde?</p>
+                <h4 id="scrollspyHeading5">Fifth heading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod voluptatibus odit nostrum, quia quam
+                    exercitationem eaque sequi eligendi quae necessitatibus ipsum ad inventore tempore suscipit
+                    blanditiis dolorum quasi molestiae adipisci!</p>
+            </div>
+
+        </div>
+
+            /////////// vertical //////////
+
+            <div class="row">
+                <div class="col-md-2">
+                    <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link" href="#item-1">Item 1</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+                                <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+                            </nav>
+                            <a class="nav-link" href="#item-2">Item 2</a>
+                            <a class="nav-link" href="#item-3">Item 3</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                                <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+                            </nav>
+                        </nav>
+                    </nav>
+                </div>
+                <div class="col-md-10">
+                    <div class="vertical_scroll" data-bs-spy="scroll" data-bs-target="#navbar-example3"
+                        data-bs-offset="0" tabindex="0">
+                        <h4 id="item-1">Item 1</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia eaque eligendi ea
+                            molestiae magni saepe quas vero aliquam dolores fugit pariatur accusamus, explicabo incidunt
+                            odit debitis nemo itaque sapiente Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Est quis expedita modi tempore, cumque temporibus iusto ipsum ex beatae consequatur placeat
+                            ut sapiente, repellat obcaecati at velit! Adipisci perferendis repudiandae, doloribus
+                            molestias eum eaque ducimus delectus illum placeat minima expedita non hic inventore rem
+                            laboriosam beatae magnam nemo ea. Consequatur!.</p>
+                        <h5 id="item-1-1">Item 1-1</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia eaque eligendi ea
+                            molestiae magni saepe quas vero aliquam dolores fugit pariatur accusamus, explicabo incidunt
+                            odit debitis nemo itaque sapiente Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Est quis expedita modi tempore, cumque temporibus iusto ipsum ex beatae consequatur placeat
+                            ut sapiente, repellat obcaecati at velit! Adipisci perferendis repudiandae, doloribus
+                            molestias eum eaque ducimus delectus illum placeat minima expedita non hic inventore rem
+                            laboriosam beatae magnam nemo ea. Consequatur!.</p>
+                        <h5 id="item-1-2">Item 1-2</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia eaque eligendi ea
+                            molestiae magni saepe quas vero aliquam dolores fugit pariatur accusamus, explicabo incidunt
+                            odit debitis nemo itaque sapiente Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Est quis expedita modi tempore, cumque temporibus iusto ipsum ex beatae consequatur placeat
+                            ut sapiente, repellat obcaecati at velit! Adipisci perferendis repudiandae, doloribus
+                            molestias eum eaque ducimus delectus illum placeat minima expedita non hic inventore rem
+                            laboriosam beatae magnam nemo ea. Consequatur!.</p>
+                        <h4 id="item-2">Item 2</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia eaque eligendi ea
+                            molestiae magni saepe quas vero aliquam dolores fugit pariatur accusamus, explicabo incidunt
+                            odit debitis nemo itaque sapiente Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Est quis expedita modi tempore, cumque temporibus iusto ipsum ex beatae consequatur placeat
+                            ut sapiente, repellat obcaecati at velit! Adipisci perferendis repudiandae, doloribus
+                            molestias eum eaque ducimus delectus illum placeat minima expedita non hic inventore rem
+                            laboriosam beatae magnam nemo ea. Consequatur!.</p>
+                        <h4 id="item-3">Item 3</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia eaque eligendi ea
+                            molestiae magni saepe quas vero aliquam dolores fugit pariatur accusamus, explicabo incidunt
+                            odit debitis nemo itaque sapiente Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Est quis expedita modi tempore, cumque temporibus iusto ipsum ex beatae consequatur placeat
+                            ut sapiente, repellat obcaecati at velit! Adipisci perferendis repudiandae, doloribus
+                            molestias eum eaque ducimus delectus illum placeat minima expedita non hic inventore rem
+                            laboriosam beatae magnam nemo ea. Consequatur!.</p>
+                        <h5 id="item-3-1">Item 3-1</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia eaque eligendi ea
+                            molestiae magni saepe quas vero aliquam dolores fugit pariatur accusamus, explicabo incidunt
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero animi aliquid, consectetur
+                            iure quaerat eaque accusantium fuga enim, esse consequatur qui at fugit numquam velit cum
+                            eligendi dolor recusandae totam doloribus delectus. Facilis quidem eum necessitatibus veniam
+                            officia recusandae natus incidunt, sequi minus quisquam est laboriosam pariatur soluta
+                            voluptates at odit animi, tempora excepturi veritatis, sunt numquam beatae dignissimos
+                            doloremque! Ipsum placeat beatae repellendus ab accusantium eos id atque, soluta dolores
+                            corrupti suscipit reprehenderit quia nesciunt, optio voluptates possimus necessitatibus
+                            tenetur libero repellat modi? Nam reiciendis repudiandae laborum optio similique sapiente
+                            dolor libero, quidem cumque omnis porro eveniet temporibus ut! odit debitis nemo itaque
+                            sapiente Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quis expedita modi
+                            tempore, cumque temporibus iusto ipsum ex beatae consequatur placeat ut sapiente, repellat
+                            obcaecati at velit! Adipisci perferendis repudiandae, doloribus molestias eum eaque ducimus
+                            delectus illum placeat minima expedita non hic inventore rem laboriosam beatae magnam nemo
+                            ea. Consequatur!.</p>
+                        <h5 id="item-3-2">Item 3-2</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia eaque eligendi ea
+                            molestiae magni saepe quas vero aliquam dolores fugit pariatur accusamus, explicabo incidunt
+                            odit debitis nemo itaque sapiente Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Est quis expedita modi tempore, cumque temporibus iusto ipsum ex beatae consequatur placeat
+                            ut sapiente, repellat obcaecati at velit! Adipisci perferendis repudiandae, doloribus
+                            molestias eum eaque ducimus delectus illum placeat minima expedita non hic inventore rem
+                            laboriosam beatae magnam nemo ea. Consequatur!.</p>
+                    </div>
+                </div>
+            </div>
+
+
+          ////////////  list-group vertical /////////////
+
+            <div class="row">
+                <div class="col-md-2">
+                    <div id="list-example" class="list-group">
+                        <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="list_crollspy"  data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                        <h4 id="list-item-1">Item 1</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia eaque eligendi ea
+                            molestiae magni saepe quas vero aliquam dolores fugit pariatur accusamus, explicabo incidunt
+                            odit debitis nemo itaque sapiente Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Est quis expedita modi tempore, cumque temporibus iusto ipsum ex beatae consequatur placeat
+                            ut sapiente, repellat obcaecati at velit! Adipisci perferendis repudiandae, doloribus
+                            molestias eum eaque ducimus delectus illum placeat minima expedita non hic inventore rem
+                            laboriosam beatae magnam nemo ea. Consequatur!.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia eaque eligendi ea
+                            molestiae magni saepe quas vero aliquam dolores fugit pariatur accusamus, explicabo incidunt
+                            odit debitis nemo itaque sapiente Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Est quis expedita modi tempore, cumque temporibus iusto ipsum ex beatae consequatur placeat
+                            ut sapiente, repellat obcaecati at velit! Adipisci perferendis repudiandae, doloribus
+                            molestias eum eaque ducimus delectus illum placeat minima expedita non hic inventore rem
+                            laboriosam beatae magnam nemo ea. Consequatur!.</p>
+                        <h4 id="list-item-2">Item 2</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia eaque eligendi ea
+                            molestiae magni saepe quas vero aliquam dolores fugit pariatur accusamus, explicabo incidunt
+                            odit debitis nemo itaque sapiente Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Est quis expedita modi tempore, cumque temporibus iusto ipsum ex beatae consequatur placeat
+                            ut sapiente, repellat obcaecati at velit! Adipisci perferendis repudiandae, doloribus
+                            molestias eum eaque ducimus delectus illum placeat minima expedita non hic inventore rem
+                            laboriosam beatae magnam nemo ea. Consequatur!.</p> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia eaque eligendi ea
+                                molestiae magni saepe quas vero aliquam dolores fugit pariatur accusamus, explicabo incidunt
+                                odit debitis nemo itaque sapiente Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Est quis expedita modi tempore, cumque temporibus iusto ipsum ex beatae consequatur placeat
+                                ut sapiente, repellat obcaecati at velit! Adipisci perferendis repudiandae, doloribus
+                                molestias eum eaque ducimus delectus illum placeat minima expedita non hic inventore rem
+                                laboriosam beatae magnam nemo ea. Consequatur!.</p>
+                        <h4 id="list-item-3">Item 3</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia eaque eligendi ea
+                            molestiae magni saepe quas vero aliquam dolores fugit pariatur accusamus, explicabo incidunt
+                            odit debitis nemo itaque sapiente Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Est quis expedita modi tempore, cumque temporibus iusto ipsum ex beatae consequatur placeat
+                            ut sapiente, repellat obcaecati at velit! Adipisci perferendis repudiandae, doloribus
+                            molestias eum eaque ducimus delectus illum placeat minima expedita non hic inventore rem
+                            laboriosam beatae magnam nemo ea. Consequatur!.</p> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia eaque eligendi ea
+                                molestiae magni saepe quas vero aliquam dolores fugit pariatur accusamus, explicabo incidunt
+                                odit debitis nemo itaque sapiente Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Est quis expedita modi tempore, cumque temporibus iusto ipsum ex beatae consequatur placeat
+                                ut sapiente, repellat obcaecati at velit! Adipisci perferendis repudiandae, doloribus
+                                molestias eum eaque ducimus delectus illum placeat minima expedita non hic inventore rem
+                                laboriosam beatae magnam nemo ea. Consequatur!.</p>
+                        <h4 id="list-item-4">Item 4</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia eaque eligendi ea
+                            molestiae magni saepe quas vero aliquam dolores fugit pariatur accusamus, explicabo incidunt
+                            odit debitis nemo itaque sapiente Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Est quis expedita modi tempore, cumque temporibus iusto ipsum ex beatae consequatur placeat
+                            ut sapiente, repellat obcaecati at velit! Adipisci perferendis repudiandae, doloribus
+                            molestias eum eaque ducimus delectus illum placeat minima expedita non hic inventore rem
+                            laboriosam beatae magnam nemo ea. Consequatur!.</p> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia eaque eligendi ea
+                                molestiae magni saepe quas vero aliquam dolores fugit pariatur accusamus, explicabo incidunt
+                                odit debitis nemo itaque sapiente Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Est quis expedita modi tempore, cumque temporibus iusto ipsum ex beatae consequatur placeat
+                                ut sapiente, repellat obcaecati at velit! Adipisci perferendis repudiandae, doloribus
+                                molestias eum eaque ducimus delectus illum placeat minima expedita non hic inventore rem
+                                laboriosam beatae magnam nemo ea. Consequatur!.</p>
+                </div>
+            </div>
+
+
+           //////// realword Use ///////
+
+           
+        </div>
+
+        <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand " href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link" href="#features">Features</a>
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                    <a class="nav-link " href="#contact">Contect Us</a>
+                </div>
+            </div>
+        </nav>
+        <div class="col-sm-12 my-5">
+            <div id="home" class="bg-primary p-3">Home</div>
+            <div id="features" class="bg-warning p-3">Features</div>
+            <div id="pricing" class="bg-success p-3">Pricing</div>
+            <div id="contact" class="bg-secondary p-3">Contect Us</div>
+        </div>
+
+
+
+    </div> -->
+
+
+
+
+
+
+
+    <!-- End Html of All Plugins -->
+</body>
+
+</html>

@@ -1,0 +1,733 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+a:hover{
+    color: #fff;
+}
+ 
+/* 3rd Bootstrap CSS container & Row Class Tuotorial */
+
+/* .container{
+    border: 5px solid rgb(202, 62, 62);
+}
+.container-fluid{
+    border: 5px solid rgb(202, 62, 62);
+}
+.row{
+    border: 2px solid rgb(0, 0, 0);
+} */
+
+
+/* 4th Bootstrap CSS Col Class Tuotorial */
+
+/* .container{
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.row{
+    border: 2px solid rgb(241, 16, 16);
+}
+
+.col{
+    border: 2px solid rgb(17, 233, 17);
+
+}
+.col-md{
+    border: 2px solid rgb(17, 233, 17);
+} */
+
+
+/* 5th Bootstrap Css Grid Col Advance Class */  
+
+/* body{
+    background: gray;
+}
+
+.container{
+    border: 0px solid #000;
+}
+
+.row{
+    border: 0px solid #4face2;
+}
+.col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    border: 0px solid #099211;
+}
+
+#header{
+    background: #007865;
+    color: #fff;
+    padding: .5rem 0 .8rem .8rem;
+}
+
+#menu{
+    background: lightblue;
+    padding: .5rem 0;
+}
+#menu ul{
+    list-style: none;   
+    margin: 0; 
+}
+#menu ul li{
+    display: inline-block;  
+}
+#menu ul li a{
+    text-decoration: none; 
+    color: #000;
+    padding: 0 .5rem;
+}
+
+#content{
+    background: #eee;
+}
+
+#sidebar{
+    background: rgb(230, 191, 173);
+}
+
+#sidebar ul li a{
+    text-decoration: none;
+    color: #000; 
+}
+#footer{
+    background: #007865;
+    color: #fff;
+} */
+
+
+/* 6th Bootstrap Css Offset Class */
+
+/* .container{
+    border: 5px solid #000;
+}
+
+.row{
+    border: 2px solid #e01515;
+}
+
+.pink{
+    background: pink;
+}
+
+.blue{
+    background: blue;
+}
+
+.red{
+    background: #e01515;
+} */
+
+
+/* 7th Bootstrap Css Reordering Classes */
+
+/* .container{
+    border: 5px solid #000;
+}
+
+.row{
+    border: 3px solid #e01515;
+}
+
+.pink{
+    background: pink;
+}
+
+.orange{
+    background: orange;
+}
+
+.blue{
+    background: #007bff;
+}
+
+.green{
+    background: yellowgreen;
+} */
+
+/* 8th Bootstrap Css Nesting  */
+
+/* .container{
+    border: 5px solid black;
+}
+.row{
+    border: 3px solid #e01515;
+}
+.pink{
+    background: pink;
+}
+.red{
+    background: #e01515;
+}
+.blue{
+    background: blue;
+} */
+
+/* 9th Bootstrap Css Margin Utilities */
+
+/* .container{
+    border: 3px solid #000;
+}
+
+.row{
+    border: 2px solid #e01515;
+}
+
+.pink{
+    background: pink;
+}
+
+.orange{
+    background: orange;
+}
+
+.blue{
+    background: #007bf0;
+}
+
+.green{
+    background: green;
+}
+
+.me-lg-n5{
+    margin-right: -3rem;   
+}
+@media (max-width: 1200px) {
+    .me-lg-n5{
+        margin-right: 0rem;   
+    }
+  }
+
+.mb-md-n5{
+    margin-bottom: -3rem;
+}
+
+@media (max-width: 768px) {
+    .mb-md-n5{
+        margin-bottom: 0rem;
+    }  
+}
+
+.ms-md-n5{
+    margin-left: -3rem;
+}
+
+@media (max-width: 768px) {
+    .ms-md-n5{
+        margin-left: 0rem;
+    }  
+} */
+
+
+/* 10th Bootstrap Css Padding Utilities */
+
+/* .container{
+    border: 3px solid #000;
+}
+
+.row{
+    border: 2px solid #e01515;
+}
+
+.pink{
+    background: pink;
+}
+
+.orange{
+    background: orange;
+}
+
+.blue{
+    background: #007bf0;
+}
+
+.green{
+    background: green;
+} */
+
+/* 11th Bootstrap Css Horizontal Alignment */
+
+/* .container{
+    /* for grident Border 
+border-radius: .5rem;
+background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), linear-gradient(to right, rgb(219, 177, 177), rgba(192, 226, 192, 0.884));
+background-origin: padding-box, border-box;
+background-repeat: no-repeat;
+border: 5px solid transparent;
+}
+
+.row{
+    border: 2px solid #e01515;
+}
+
+.pink{
+    background: pink;
+}
+
+.orange{
+    background: orange;
+}
+
+.blue{
+    background: #007bf0;
+}
+
+.green{
+    background: green;
+}
+
+.col{
+    text-align: center;
+} */
+
+
+/* 12th Bootstrap CSS Vertical Alignment */
+
+/* .container{
+    border: 5px solid red;
+}
+
+.row{
+    border: 3px solid #000;
+}
+
+.pink{
+    background: pink;
+}
+
+.orange{
+    background: orange;
+}
+
+.blue{
+    background: #007bf0;
+}
+
+.green{
+    background: green;
+}
+
+.col{
+    text-align: center;
+} */
+
+/* 13th Bootstrap Css Vertical (Align-content Classes) */
+
+/* .container{
+    border: 5px solid red;
+}
+
+.row{
+    border: 3px solid #000;
+}
+
+.pink{
+    background: pink;
+}
+
+.orange{
+    background: orange;
+}
+
+.blue{
+    background: #007bf0;
+}
+
+.green{
+    background: green;
+}
+
+.col{
+    text-align: center;
+} */
+
+/* 14th Bootstrap vertical (Align-Self classes) */
+
+/* .container{
+    border: 5px solid red;
+}
+
+.row{
+    border: 3px solid #000;
+}
+
+.pink{
+    background: pink;
+}
+
+.orange{
+    background: orange;
+}
+
+.blue{
+    background: #007bf0;
+}
+
+.green{
+    background: green;
+}
+
+.col{
+    text-align: center;
+} */
+
+/* 15th Bootstrap Css Flex-Direction Classes */
+
+/* .container{
+    border: 5px solid red;
+}
+
+.row{
+    border: 3px solid #000;
+}
+
+.pink{
+    background: pink;
+}
+
+.orange{
+    background: orange;
+}
+
+.blue{
+    background: #007bf0;
+}
+
+.green{
+    background: green;
+}
+
+.cyan{
+    background: darkturquoise;
+} */
+
+/* 16th Bootstrap Css Disply Classes */
+
+/* .container{
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.row{
+    border: 3px solid #000;
+}
+
+.pink{
+    background: pink;
+}
+
+.orange{
+    background: orange;
+}
+
+.blue{
+    background: #007bf0;
+}
+
+.green{
+    background: yellowgreen;
+}
+
+.cyan{
+    background: darkturquoise;
+} */
+
+
+/* 17th Bootstrap Float & clearfix Classes */
+
+/* .container{
+    border: 5px solid #e02121;
+}
+
+.row{
+    border: 3px solid #000;
+}
+
+.pink{
+    background: pink;
+}
+
+.orange{
+    background: orange;
+}
+
+.blue{
+    background: #007bf0;
+}
+
+.green{
+    background: yellowgreen;
+}
+
+.cyan{
+    background: darkturquoise;
+} */
+
+/* 18th Bootstrap Position and Overflow Classes */
+
+/* .container{
+    border: 5px solid #e02121;
+}
+
+.row{
+    border: 3px solid #000;
+}
+
+.pink{
+    background: pink;
+}
+
+.orange{
+    background: orange;
+}
+
+.blue{
+    background: #007bf0;
+}
+
+.green{
+    background: yellowgreen;
+}
+
+.cyan{
+    background: darkturquoise;
+} */
+
+/* 19th Bootstrap Css Margin & Padding II */
+
+/* .container{
+    border: 5px solid #e02121;
+}
+
+.row{
+    border: 3px solid #000;
+}
+
+.pink{
+    background: pink;
+}
+
+.orange{
+    background: orange;
+}
+
+.blue{
+    background: #007bf0;
+}
+
+.green{
+    background: yellowgreen;
+}
+
+.cyan{
+    background: darkturquoise;
+} */
+
+/* 21th Bootstrap Css Color & Background Color Classes */
+
+/* .container{
+    border: 3px solid #000;
+    background: var( --main-color);
+    --main-font-style: Italic;
+    font-style: var(--main-font-style);
+
+}
+
+:root{
+    --main-color: #eee;
+}
+
+h1{
+    background: var(--bs-pink);
+    color: var(--bs-yellow);
+} */
+
+/* 22th Bootstrap text Formatting Classes */
+
+/* .container{
+    border: 5px solid #000;
+}
+
+.col-md-4{
+    background: pink;
+    color: green;
+} */
+
+/* 23th Bootstrap Text and List style Classes */
+
+/* .container{
+    border: 5px solid #000;
+} */
+
+/* 24th Bootstrap Button Classes */
+
+/* .container{
+    border: 5px solid #000;
+} */
+
+/* 25th Bootstrap Css Group Button Classes */
+
+/* .container{
+    border: 5px solid #000;
+} */
+
+/* 26th Bootstrap Css List Group Classes */
+
+/* .container{
+    border: 5px solid #000;
+} */
+
+/* 27th Bootstrap Css Table classes */
+
+/* .container{
+    border: 5px solid #000;
+} */
+
+/* 28th Bootstrap Css Pagination & Breadcrumb classes */
+
+/* .container{
+    border: 5px solid #000;
+}
+ol li a{
+    text-decoration: none;
+} */
+
+/* 29th Bootstrap 5 Intoduction and New Classes */
+
+/* .container,
+.container-lg{
+    border: 5px solid #000;
+} */
+
+
+/* 30th Bootstrap Css Form Classes */
+/* .container{
+    border: 5px solid #000;
+} */
+
+/* 31th bootstrap Css Inline & Horizontal Form Classes */
+
+/* .container{
+    border: 5px solid #000;
+} */
+/* 32th Bootstrap Css Form Custom Classes */
+
+/* .container{
+    border: 5px solid #000;
+} */
+
+/* 33th Bootstrap Input Group Classes */
+
+/* .container{
+    border: 5px solid #000;
+} */
+
+/* 34th Bootstrap Navs Classes */
+
+/* .container{
+    border: 5px solid #000;
+}
+.nav{
+    background: darkcyan;
+}
+
+.nav-link{
+    color: #000;
+}
+
+.nav-link.active,.nav-link:hover{
+    color: #fff;
+    background: sandybrown;
+}
+
+.nav-link.disabled{
+    background: gray;
+    color: #fff;
+} */
+
+/* 35th Bootstrap  Advanse Navbar Classes */
+
+/* .container{
+    border: 5px solid #000;
+}
+
+.bg{
+    background: #81ecec;
+} */
+
+/* 36th Bootstrap Images & Videos Classes */
+
+/* .container{
+    border: 5px solid #000;
+} */
+
+/* 37th Bootstrap Border & Shadow Classes */
+
+/* .container{
+    border: 5px solid #000;
+} */
+
+/* 38th Bootsrap Card Classes */
+
+/* .container{
+    border: 5px solid #000;
+} 
+
+.nav-link{
+    color: #000;
+} */
+
+/* 39th Bootsrap Card Group , Deck & Columns Classes Classes */
+
+/* .container{
+    border: 5px solid #000;
+}  */
+
+/* 40th Bootstrap Media Object Classes */
+
+/* .container{
+    border: 5px solid #000;
+}  */
+
+/* 41th Bootstrap Badges Classes */
+
+/* .container{
+    border: 5px solid rgb(160, 226, 210);
+}   */
+
+/* 42th Bootstrap Progress Baqr Classes */
+
+/* .container{
+    border: 5px solid rgb(121, 219, 137);
+}   */
+
+/* 43th Bootstrap Spinners Classes */
+
+/* .container{
+    border: 5px solid rgb(45, 53, 47);
+}   */
+
+/* 44th Bootstrap Jumbotron Classes */
+
+/* .container{
+    border: 5px solid rgb(116, 118, 230);
+}  
+
+.bg{
+    background: rgb(212, 209, 209);
+}
+
+#tal{
+    background: url(Images/1stlayout/4.jpg)  no-repeat 0, 0;
+    background-size: cover;
+    position: relative;
+}
+#tal::before{
+    background: rgba(4, 62, 73, 0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+} */

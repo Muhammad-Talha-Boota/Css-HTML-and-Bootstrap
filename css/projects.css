@@ -1,0 +1,556 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+        /* 1st */
+
+        
+/* #container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.runway{
+    height: 200px;
+    width: 100vw;
+    background-image: url(../img/road.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.plan{
+    width: 500px;
+    position: absolute;
+    bottom: 150px;
+    right: -250px;
+    animation: plan 5s linear infinite;
+    transform-origin: 100px 50px;
+}
+
+@keyframes plan{
+    0%{
+        transform: translateX(0) translateY(0) rotate(0);
+    }
+    30%{
+        transform: translateX(-700px) translateY(0px)  rotate(0);
+    }
+    100%{
+        transform: translateX(-2000px)  translateY(-300px) rotate(25deg);
+    }
+} */
+
+
+            /* 2nd */
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #607d8b;
+}
+
+.container
+{
+    position: relative;
+    top: 50px;
+}
+
+.cup
+{
+    position: relative;
+    width: 280px;
+    height: 300px;
+    background: linear-gradient(to right,#f9f9f9,#d9d9d9);
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+
+}
+
+.top
+{
+    position: relative;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to right,#f9f9f9,#d9d9d9);
+    border-radius: 50%;
+}
+
+.circle
+{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: 50px;
+    background: linear-gradient(to left,#f9f9f9,#d9d9d9);
+    border-radius: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.tea
+{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left,#c57e65,#e28462); 
+    border-radius: 50%;
+}
+
+.handle
+{
+    position: absolute;
+    right: -75px;
+    top: 30px;
+    width: 160px;
+    height: 180px;
+    border: 25px solid #d9d9d9;
+    border-left: 25px solid transparent; 
+    border-bottom: 25px solid transparent; 
+    border-radius: 50%;
+    transform: rotate(42deg);
+}
+
+.plate
+{
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(to left,#f9f9f9,#e7e7e7);
+    border-radius: 50%;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.4);
+}
+
+.plate::before
+{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    background: linear-gradient(to left,#f9f9f9,#e7e7e7);
+}
+
+.plate::after
+{
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    left: 30px;
+    bottom: 30px;
+    background: radial-gradient(rgba(0,0,0,0.4) 25%, transparent,transparent);
+    border-radius: 50%;
+
+}
+
+.vapour
+{
+   position: relative;
+   display: flex;
+   z-index: 1;
+   padding: 0 20px; 
+}
+
+.vapour span
+{
+    position: relative;
+    bottom: 50px;
+    display: block;
+    margin: 0 2px 50px;
+    min-width: 8px;
+    height: 120px;
+    background: #fff;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+    filter: blur(8px);
+    animation-delay:calc(var(--i) * -0.5s) ;
+}
+
+@keyframes animate
+{
+ 0%{
+     transform: translateY(0) scaleX(1);
+     opacity: 0;
+ }   
+ 15%{
+     opacity: 1;
+ }
+ 50%{
+     transform: translateY(-150px) scaleX(5);
+ } 
+ 95%{
+     opacity: 0;
+ }  
+ 100%{
+     transform: translateY(-300px) scaleX(10);
+ }   
+} */
+
+
+           /* 3rd */
+
+/* section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #042104;
+    animation: load 10s linear infinite;
+}
+@keyframes load 
+{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+section .loader{
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+section .loader span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(calc(18deg * var(--i)));
+}
+
+section .loader span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    border-radius: 50%;
+    height: 15px;
+    background: #00ff0a;
+    box-shadow:  0 0 10px #00ff0a,
+                 0 0 20px #00ff0a,
+                 0 0 40px #00ff0a,
+                 0 0 60px #00ff0a,
+                 0 0 80px #00ff0a,
+                 0 0 100px #00ff0a;
+    animation: loadr 2s linear infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes loadr {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+} */
+
+ 
+        /* 4th */
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #102626;
+}        
+
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-reflect: below 1px linear-gradient(#0001,#0004);
+}
+
+.container .loader{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #0d2323;
+    animation: load 2s linear infinite;
+}
+@keyframes load{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.container .loader::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to top,transparent,rgba(0,255,249,0.4));
+    background-size: 100px 180px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.container .loader::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background: #00fff9;
+    border-radius: 50%;
+    z-index: 10;
+    box-shadow: 0 0 10px #00fff9,
+                0 0 20px #00fff9,
+                0 0 30px #00fff9,
+                0 0 40px #00fff9,
+                0 0 50px #00fff9,
+                0 0 60px #00fff9,
+                0 0 70px #00fff9,
+                0 0 80px #00fff9,
+                0 0 90px #00fff9,
+                0 0 100px#00fff9;            
+}
+
+.container .loader span{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #102626;
+    border-radius: 50%;
+} */
+
+      /* 5th */
+/* .honda{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/sky.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.highway{
+    height: 200px;
+    width: 500%;
+    display: block;
+    background-image: url(../img/road.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    animation: highway 5s linear infinite;
+}
+
+@keyframes highway {
+    100%{
+        transform: translateX(-3400px);
+    }
+}
+
+.city{
+    height: 300px;
+    width: 500%;
+    background-image: url(../img/city.png);
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: city 20s linear infinite;
+}
+
+@keyframes city{
+    100%{
+        transform: translateX(-1400px);
+    }
+}
+
+.car{
+    width: 400px;
+    left: 50%;
+    bottom: 100px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+}
+
+.car img{
+    width: 100%;
+    animation: car 1s linear infinite;
+}
+
+@keyframes car {
+    100%{
+        transform: translatey(-1px);
+    }
+    50%{
+        transform: translatey(1px);
+    }
+    0%{
+        transform: translatey(-1px);
+    }
+}
+
+.wheel{
+    left: 50%;
+    bottom: 178px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+}
+
+.wheel img{
+    height: 72px;
+    width: 72px;
+    animation: wheel 1s linear infinite;
+}
+@keyframes wheel{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.wheel .back-wheel{
+    left: -165px;
+    position: absolute;
+}
+
+.wheel .front-wheel{
+    left: 80px;
+    position: absolute;
+} */
+
+
+  
+     /* 6th */
+/* body{
+    background: url(../img/calender\ 2.jpg) no-repeat center/cover;
+    font-family: 'poppins',sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cln-title h2,h3{
+    color: #000;
+    padding-bottom: 8px;
+    font-size: 25px;
+}
+.calender-container{
+    position: relative;
+    top: 180px;
+    width: 500px;background-color: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cln-title{
+    position: relative;
+    height: 200px;
+    padding: 20px;
+    color: #eee;
+    background: url(../img/Calender.jpg) no-repeat center/cover;
+}
+
+.cln-date{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.cln-date .cln-day{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.cln-date .cln-number{
+    height: 30px;
+    width: 50px;
+    line-height: 25px;
+    transition: .2 ease-in-out;
+    text-align: center;
+    justify-content: center;
+}
+
+.cln-date .cln-number:nth-child(7n){
+    color: red;
+    font-weight: 600;
+}
+.cln-date .cln-number:nth-child(7n-1){
+    color: red;
+    font-weight: 600;
+}
+
+.cln-date .to-day,.cln-date .cln-number:hover{
+    background-color: #009688;
+    font-weight: 700;
+    color: #fff !important;
+    cursor: pointer;
+    
+} */
+
+/* 7th Beautifull Button */
+
+/* .button {
+    background: linear-gradient(to right, #05FBFF,#1E00FF);
+    border-radius: 8px;
+    color: #122dff;
+    display: inline-block;
+    font-size: 1rem;
+    padding:2px;
+    text-decoration: none;
+  }
+  .button span {
+    background: #fff;
+    display: block;
+    padding: 1em 3em;
+    border-radius: 6px;
+  }
+  .containe{
+      text-align: center;
+  } */
+
+
+  /* 8th Moon Background */
+
+  
+
