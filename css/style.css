@@ -2622,7 +2622,7 @@ ol li::marker{
 }         
 p{
     color: red;
-}*/
+} */
 
 
            /* @ support */
@@ -2875,12 +2875,12 @@ input[type=file]::file-selector-button:hover{
 }
 
 #inner{
-    width: 400px;
-    height: 250px;
+    width: 600px;
+    height: 600px;
     border-radius: 5px;
     border: 2px solid #fff;
     background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(2px);
     transition: backdrop-filter 4s ;
 
 }
