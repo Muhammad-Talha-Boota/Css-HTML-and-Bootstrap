@@ -549,8 +549,49 @@ section .loader span::before{
       text-align: center;
   } */
 
+  
+  /* 8th JavaScript For Show the Password */
 
-  /* 8th Moon Background */
+
+  /* 9th Light Button */
+
+    /*
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: #091021;
+    }
+
+    .main {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .btn {
+        border: none;
+        outline: none;
+        height: 3rem;
+        width: 10rem;
+        font-size: 1rem;
+        border-radius: 2rem;
+        text-transform: capitalize;
+        background: #ce9f11;
+        transition: .5s ease-in-out;
+    }
+
+    .btn:hover {
+        cursor: pointer;
+        background: #ffc000;
+        box-shadow: 0 0 5px #ffc000,
+            0 0 20px #ffc000,
+            0 0 60px #ffc000,
+            0 0 150px #ffc000;
+    } 
+    */
 
   
 
