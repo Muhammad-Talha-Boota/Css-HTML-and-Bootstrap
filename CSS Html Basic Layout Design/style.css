@@ -61,6 +61,12 @@ body{
     padding: 10px 5px;
 }
 
+#contact p::selection ,
+#contact h2::selection {
+    background: crimson;
+    color: #fff;
+  }
+
 #sidebar{
     background: lightsalmon;
     min-height: 400px;
